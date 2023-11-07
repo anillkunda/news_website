@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>News App</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/f5753eac6b.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <nav>
+      <!-- logo -->
+      <a href="#" onclick="reload()" class="logo"><h2>N.</h2></a>
+
+      <!-- Navbar-Links -->
+      <ul class="navbar">
+        <li>
+          <a href="#" class="nav-item" id="ipl" onclick="onNavItemClick('ipl')"
+            >IPL</a
+          >
+        </li>
+        <li>
+          <a
+            href="#"
+            class="nav-item"
+            id="tech"
+            onclick="onNavItemClick('tech')"
+            >Tech</a
+          >
+        </li>
+        <li>
+          <a
+            href="#"
+            class="nav-item"
+            id="finance"
+            onclick="onNavItemClick('finance')"
+            >Finance</a
+          >
+        </li>
+      </ul>
+
+      <!-- Search-Bar -->
+      <div class="search-bar">
+        <input
+          type="text"
+          id="search-text"
+          class="news-input"
+          placeholder="News..."
+        />
+        <div class="search-icon">
+          <a href="#" class="search-button" id="search-button"
+            ><i class="fa-solid fa-magnifying-glass"></i
+          ></a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- News-Cards -->
+    <main>
+      <div class="cards-container" id="cards-container"></div>
+    </main>
+
+    <template id="template-news-card">
+      <div class="card">
+        <div class="card-header">
+          <img
+            src="https://via.placeholder.com/400x200"
+            alt="news-image"
+            id="news-img"
+          />
+        </div>
+        <div class="card-content">
+          <h3 class="news-title" id="news-title">This is the Title</h3>
+          <h6 class="news-source" id="news-source">End Gadget 5 nav 2023</h6>
+          <p class="news-desc" id="news-desc">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero
+            distinctio quod dicta voluptatum a praesentium totam autem ullam
+            vitae consequatur.
+          </p>
+        </div>
+      </div>
+    </template>
+
+    <script src="script.js" defer></script>
+  </body>
+</html>
