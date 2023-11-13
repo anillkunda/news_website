@@ -16,10 +16,10 @@
 
 ## 🔥 Some key features of this effort include:
 
-- *Real-Time Updates.
-- *User-Friendly UI.
-- *Engaging Thumbnails.
-- *Search Functionality.
+- Real-Time Updates.
+- User-Friendly UI.
+- Engaging Thumbnails.
+- Search Functionality.
 
 ## Usage
 
