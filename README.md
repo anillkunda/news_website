@@ -34,4 +34,4 @@ javascript
 const API_KEY = 'YOUR_API_KEY';
 
 ## Contact
-Connect with me on LinkedIn : [Anil Kunda ↗](https://www.linkedin.com/in/anillkunda/)
+Connect with me on LinkedIn : [Anil Kunda ↗](https://www.linkedin.com/in/anilkunda/)
